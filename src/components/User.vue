@@ -19,8 +19,7 @@
         }
     }
 </script>
-
-<style>
+<style scoped>
     p {
         font-style: italic;
     }
