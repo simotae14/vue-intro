@@ -1,18 +1,23 @@
 <template>
   <div id="user">
     <h3>L'User</h3>
-    <p>Il mio username è {{ username}}</p>    
+    <p>Il mio username è {{ username}}</p>
+    <app-info></app-info>    
   </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-        username: 'Simone'
+    import Info from './Info.vue';
+    export default {
+        data() {
+            return {
+                username: 'Simone'
+            }
+        },
+        components: {
+            'app-info': Info
+        }
     }
-  }
-}
 </script>
 
 <style>
