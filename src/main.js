@@ -25,7 +25,8 @@ const routes = [
 
 // definisco il router
 const router = new VueRouter({
-  routes
+  routes: routes,
+  mode: 'history'
 });
 
 // creo il Component
