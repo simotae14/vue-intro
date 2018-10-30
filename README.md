@@ -1,4 +1,5 @@
-http://nifty-ring.surge.sh/account
+http://nifty-ring.surge.sh
+
 
 
 # vue-intro
